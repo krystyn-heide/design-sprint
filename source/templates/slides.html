@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block slides %}
+  <section data-background="{{ slate }}" class="slide-title">
+    <p>Rapid Prototyping with</p>
+    <h1>Product Design Sprints</h1>
+  </section>
+
+  {% include "_intro.html" %}
+  {% include "_preparation.html" %}
+  {% include "_understand.html" %}
+  {% include "_diverge.html" %}
+  {% include "_converge.html" %}
+  {% include "_prototype.html" %}
+  {% include "_testing.html" %}
+  {% include "_outro.html" %}
+{% endblock %}
