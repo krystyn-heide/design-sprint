@@ -7,6 +7,10 @@ body {
   font-family: $sans-serif-lighter;
   font-size: $base-font-size;
 
+  p {
+    text-align: center;
+  }
+
   .progress {
     background-color: $progress-background;
 
